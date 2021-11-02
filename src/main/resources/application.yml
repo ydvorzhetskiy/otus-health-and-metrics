@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: http://localhost:3000
+        allowed-methods: GET
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  version: @project.version@
+  author: ydvorzhetskiy
+  descriptiion: Just an example
